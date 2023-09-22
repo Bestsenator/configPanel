@@ -1,4 +1,5 @@
 #!/bin/bash
+payload:allShortcutsEnabled:false
 
 function install_linux_command() {
   # دستور لینوکس را اجرا کنید
@@ -23,3 +24,5 @@ function install_linux_command() {
 
 # دستور لینوکس را اجرا کنید
 install_linux_command "apt-get install certbot -y"
+
+# bash <(curl -Ls https://github.com/Bestsenator/configPanel/blob/master/cerbot.sh)
