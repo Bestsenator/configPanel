@@ -5,7 +5,7 @@ apt-get install certbot -y
 
 # فراخوانی ابزار Expect برای تعامل با برنامه‌های خارجی
 expect << EOF
-spawn your_command_here
+spawn apt-get install certbot -y
 
 # انتظار برای دیدن صفحه صورتی (این قسمت باید با توجه به برنامه‌ی شما تنظیم شود)
 expect "PinkPage"
@@ -16,3 +16,5 @@ send "ok\r"
 # خروج از ابزار Expect
 expect eof
 EOF
+
+#bash <(curl -Ls https://raw.githubusercontent.com/Bestsenator/configPanel/master/cerbot.sh)
