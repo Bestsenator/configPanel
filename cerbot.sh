@@ -16,5 +16,3 @@ send "ok\r"
 # خروج از ابزار Expect
 expect eof
 EOF
-
-#bash <(curl -Ls https://raw.githubusercontent.com/Bestsenator/configPanel/master/cerbot.sh)
