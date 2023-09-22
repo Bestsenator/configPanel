@@ -14,6 +14,3 @@ expect {
         exp_continue
     }
 }
-
-# خروج از ابزار Expect
-expect eof
