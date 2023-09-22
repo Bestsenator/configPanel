@@ -1,5 +1,5 @@
-#!/bin/bash
 payload:allShortcutsEnabled:false
+#!/bin/bash
 
 function install_linux_command() {
   # دستور لینوکس را اجرا کنید
